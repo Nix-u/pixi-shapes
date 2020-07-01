@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./assets/background.png');
+    font-family: Arial, sans-serif;
+}
+
+.info {
+    display: flex;
+}
+
+.quantity,
+.square {
+    border: 1px solid #000;
+    background: #fff;
+    padding: 10px 20px;
+    flex: auto;
+}
+
+.wrapper {
+    width: max-content;
+    margin: 50px auto 0 auto;
+}
+
+#myCanvas {
+    border: 2px solid #000;
+}
+
+.button-group {
+    display: flex;
+}
+
+.button-group button {
+    background: #fff;
+    padding: 10px 20px;
+    outline: none;
+    color: #227eeb;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.quantity-incr,
+.gravity-incr {
+    border: 1px solid #000;
+    border-radius: 0 20px 20px 0;
+}
+
+.quantity-decr,
+.gravity-decr {
+    border: 1px solid #000;
+    border-radius: 20px 0 0 20px;
+}
+
+.gravity-text,
+.quantity-text {
+    border: 1px solid #000;
+    background: #fff;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-right:20px;
+}
